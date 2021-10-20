@@ -2,8 +2,30 @@ html {
     box-sizing: border-box;
   }
 
-  body{
-      background-color:black;
-
-
+body{  
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color:black;
+    opacity: 0.9;
   }
+
+.menu{
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-style{
+    margin-left: 10px;
+    height: 50px;
+}
+
+.menu li{
+        display: inline-block;    
+}
+
+.menu a{
+    color: seashell;
+    text-decoration: underline;
+}
