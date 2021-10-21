@@ -103,3 +103,13 @@ body{
 .location-details p{
     line-height: 1.5;
 }
+
+.contact-info{
+    height: 200px;
+   text-align:center;
+}
+
+footer{
+    margin-left: 20px;
+    text-align: left;
+}
