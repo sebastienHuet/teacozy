@@ -88,7 +88,6 @@ body{
 .location-position{
     margin-top: 15px;
     display: flex;
-    align-items: center;
 }
 
 .location-details{
