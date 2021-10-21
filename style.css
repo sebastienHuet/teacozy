@@ -73,3 +73,33 @@ body{
 .img-position h4{
  margin-top:10px;
 }
+
+.location-banner{
+    margin: auto;
+    height: 500px;
+    width: 1200px;
+    background-image: url('./img/img-locations-background.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.location-position{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.location-details{
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin: 0 20px 0 20px;
+}
+
+.location-details p{
+    line-height: 1.5;
+}
