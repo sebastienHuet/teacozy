@@ -44,7 +44,32 @@ body{
 .mission{
     width: 1200px;
     background-color: black;
+    text-align: center;
+}
+.featured-tea{
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+}
+
+.tea-of-month{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tea-of-month img{
+    width: 300px;
+    height: 200px;
+
+}
+
+.img-position{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 0 15px 0 15px;
+}
+
+.img-position h4{
+ margin-top:10px;
 }
