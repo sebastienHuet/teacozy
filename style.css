@@ -20,7 +20,7 @@ body{
 
 .logo-style{
     margin-left: 10px;
-    height: 50px;
+    height: 50px;∏
 }
 
 .menu li{
@@ -32,8 +32,11 @@ body{
     text-decoration: underline;
 }
 
+.top-banner, .featured-tea, .location-banner{
+    margin: 0 auto;
+}
+
 .top-banner{
-    margin: auto;
     height: 700px;
     width: 1200px;
     background-image: url('./img/img-mission-background.jpg');
@@ -47,7 +50,6 @@ body{
     background-color: black;
 }
 .featured-tea{
-    margin: auto;
     width: 1000px;
 }
 
@@ -74,7 +76,6 @@ body{
 }
 
 .location-banner{
-    margin: auto;
     height: 500px;
     width: 1200px;
     background-image: url('./img/img-locations-background.jpg');
