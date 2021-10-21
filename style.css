@@ -8,6 +8,7 @@ body{
     color: seashell;
     background-color:black;
     opacity: 0.9;
+    text-align: center;
   }
 
 .menu{
@@ -44,12 +45,10 @@ body{
 .mission{
     width: 1200px;
     background-color: black;
-    text-align: center;
 }
 .featured-tea{
     margin: auto;
     width: 1000px;
-    text-align: center;
 }
 
 .tea-of-month{
@@ -90,7 +89,6 @@ body{
     margin-top: 15px;
     display: flex;
     align-items: center;
-    text-align: center;
 }
 
 .location-details{
@@ -106,7 +104,6 @@ body{
 
 .contact-info{
     height: 200px;
-   text-align:center;
 }
 
 footer{
