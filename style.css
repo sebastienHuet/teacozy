@@ -20,7 +20,7 @@ body{
 
 .logo-style{
     margin-left: 10px;
-    height: 50px;∏
+    height: 50px;
 }
 
 .menu li{
@@ -162,8 +162,27 @@ footer{
     }
 
     .tea-of-month img{
-       width: 100%;
+        width: 100%;
        height: 350px;
+    }
+
+}
+
+
+@media only screen and (max-width: 895px){
+    .location-banner h2{
+        color: black;
+        opacity: 0.5;
+     
+    }
+
+}
+
+@media only screen and (max-width: 565px){
+
+    .tea-of-month img{
+       width: 400px;
+       height: auto;
     }
 
 }
@@ -171,12 +190,14 @@ footer{
 @media only screen and (max-width: 525px){
     .menu{
         height: auto;
+        width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .menu li{
-        display: block;    
+        display: block;  
     }
 
     .word-responsive{
